@@ -1,0 +1,22 @@
+{
+    "workbench.colorTheme": "Dracula Soft",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.minimap.enabled": false,
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "vim.insertModeKeyBindings": [
+        {
+          "before": ["j", "j"],
+          "after": ["<Esc>"]
+        }
+      ],
+    "vim.handleKeys": {
+      "<C-d>": false, 
+      "<C-w>": false,
+      "<C-k>": false,
+      "<C-o>": false,
+
+    },
+      "editor.fontFamily": "'Cascadia Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+      "editor.fontLigatures": true,
+      "window.zoomLevel": 1,
+}
