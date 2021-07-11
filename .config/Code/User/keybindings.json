@@ -1,7 +1,7 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
     {
-        "key": "ctrl+tab",
+        "key": "ctrl+k ctrl+pagedown",
         "command": "workbench.action.nextEditor"
     },
     {
@@ -9,7 +9,7 @@
         "command": "-workbench.action.nextEditor"
     },
     {
-        "key": "ctrl+shift+tab",
+        "key": "ctrl+k ctrl+pageup",
         "command": "workbench.action.previousEditor"
     },
     {
@@ -51,5 +51,25 @@
         "key": "ctrl+shift+alt+up",
         "command": "-editor.action.copyLinesUpAction",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.nextEditorInGroup"
+    },
+    {
+        "key": "ctrl+k ctrl+pagedown",
+        "command": "-workbench.action.nextEditorInGroup"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.previousEditorInGroup"
+    },
+    {
+        "key": "ctrl+k ctrl+pageup",
+        "command": "-workbench.action.previousEditorInGroup"
+    },
+    {
+        "key": "alt+d",
+        "command": "workbench.action.terminal.kill"
     }
 ]

@@ -14,10 +14,13 @@
       "<C-w>": false,
       "<C-k>": false,
       "<C-o>": false,
+      "<C-y>": false,
 
     },
       "editor.fontFamily": "'Cascadia Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
       "editor.fontLigatures": true,
       "window.zoomLevel": 1,
       "explorer.confirmDelete": false,
+      "window.title": "${dirty}${activeEditorMedium}",
+      "workbench.startupEditor": "none",
 }
