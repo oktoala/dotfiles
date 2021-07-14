@@ -23,4 +23,17 @@
       "explorer.confirmDelete": false,
       "window.title": "${dirty}${activeEditorMedium}",
       "workbench.startupEditor": "none",
+      "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+          80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+      },
+      "git.enableSmartCommit": true,
 }
