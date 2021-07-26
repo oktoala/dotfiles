@@ -7,7 +7,6 @@ fpath+=$HOME/.zsh/pure
 
 autoload -U promptinit; promptinit
 prompt pure
-zstyle :prompt:pure:git:arrow show yes
 # Basic auto/tab complete:
 autoload -U compinit
 zstyle ':completion:*' menu select
